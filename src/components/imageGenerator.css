@@ -29,7 +29,7 @@
 }
 .search-box {
   display: flex;
-  width: 300px;
+  width: 450px;
   height: 65px;
   justify-content: space-around;
   align-items: center;
@@ -46,4 +46,19 @@
   color: white;
   padding-left: 35px;
   margin-right: 35px;
+}
+.search-input::placeholder {
+  color: #999;
+}
+.generate-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 65px;
+  border-radius: 50px;
+  background: #de1b89;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
 }
